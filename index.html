@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8" />
+      <title>It's a DEMO</title>
+      <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+      <script type="text/javascript">
+          var ip = returnCitySN["cip"];
+          document.write(ip);
+          function chaxun(ip) {
+            var api = "https://api.heweather.com/x3/weather?cityip=";
+            var key = "&key=e2589cc3b44644679cbf74b72aafa0b9";
+            document.write(jsonp(api + ip + key));
+          }
+
+
+      </script>
+  </head>
+  <body>
+
+  </body>
+  </html>
+
+
