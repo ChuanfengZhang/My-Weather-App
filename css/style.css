@@ -1,0 +1,53 @@
+body {
+    margin-top: 10%;
+    text-align: center;
+    //background: #5B5B5B;
+    color: white;
+    background-image: url("http://i1.piimg.com/4851/c5970f42da6e920e.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header {
+    font-size: 60px;
+}
+
+.loc, .temp, .weather {
+    font-size: 20px;
+}
+
+.forecast {
+    display: table;
+    width: auto;
+    margin: 20px auto;
+    position: relative;
+    left: -40px;
+}
+
+.forecast-ul, .forecast-ul-li-ul {
+    list-style: none;
+}
+
+.forecast-ul-li {
+    float: left;
+}
+
+.forecast-ul-li-ul-li {
+    display: block;
+}
+
+hr {
+    width: 55%;
+}
+
+.copyright {
+    clear: left;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}

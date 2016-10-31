@@ -1,28 +1,42 @@
 <!DOCTYPE html>
-<html >
-  <head>
+<html>
+
+<head>
     <meta charset="UTF-8">
-    <title>Show the Local Weather</title>
-    
-    
-    
+    <title>My Weather App</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css'>
 
-    
-    
-    
-    
-    
-  </head>
+    <link rel="stylesheet" href="css/style.css">
 
-  <body>
 
-    <div id="weather"></div>
+</head>
+
+<body>
+    <div class="box">
+        <div class="header">
+            FreeC<i class="wi wi-rain"></i>deCamp</h1>
+            <br> Weather App
+        </div>
+        <div class="loc"></div>
+        <div class="temp"></div>
+        <div class="weather"></div>
+        <div class="forecast">
+            <ul class="forecast-ul"></ul>
+        </div>
+        <hr>
+        <div class="copyright">&copy
+            <a href="https://github.com/ChuanfengZhang
+" target="_blank">
+      ChuanfengZhang</a></div>
+    </div>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='http://pv.sohu.com/cityjson?ie=utf-8'></script>
 
-        <script src="js/index.js"></script>
+    <script src="js/index.js"></script>
 
-    
-    
-  </body>
+</body>
+
 </html>
