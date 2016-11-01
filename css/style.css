@@ -1,11 +1,13 @@
 body {
     margin-top: 10%;
     text-align: center;
-    /*background: #5B5B5B; */
+    background: #5B5B5B;
     color: white;
+    /*
     background-image: url("http://i1.piimg.com/4851/c5970f42da6e920e.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    */
 }
 
 .header {
